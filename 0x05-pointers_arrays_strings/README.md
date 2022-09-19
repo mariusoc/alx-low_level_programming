@@ -1,0 +1,1 @@
+pointers annd arrays work
