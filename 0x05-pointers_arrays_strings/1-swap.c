@@ -1,21 +1,15 @@
-#include "main.h"
-
-/**
- * _strlen - returns the length of a string
- * @s: string to evaluate
- *
- * Return: the length of the string
- */
-int _strlen(char *s)
-{
-	int i;
-
-	i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-
-	return (i);
-}
+#include "main.h"                                                                                                          
+                                                                                                                           
+/**                                                                                                                        
+ *  * swap_int - swaps the values of two integers                                                                             
+ *   * @a: pointer to first value                                                                                              
+ *    * @b: pointer to second value                                                                                             
+ *     */                                                                                                                        
+void swap_int(int *a, int *b)                                                                                              
+{                                                                                                                          
+	        int c;                                                                                                             
+		                                                                                                                           
+		        c = *a;                                                                                                            
+			        *a = *b;                                                                                                           
+				        *b = c;                                                                                                            
+}    
